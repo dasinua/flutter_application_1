@@ -6,7 +6,7 @@ class TextCenter extends StatelessWidget {
   @override
   Widget build(context) {
     return Text(
-      'Hello World',
+      'Hello Aleksandr',
       style: TextStyle(
         fontSize: 26,
         color: Colors.white,
