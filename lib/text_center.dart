@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
 
 class TextCenter extends StatelessWidget {
-  const TextCenter({super.key});
+  const TextCenter(this.text, {super.key});
+
+  final String text;
 
   @override
   Widget build(context) {
     return Text(
-      'Hello Aleksandr',
+      text,
       style: TextStyle(
         fontSize: 26,
         color: Colors.white,
